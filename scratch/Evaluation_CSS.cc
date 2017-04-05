@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
     */
     PointToPointHelper bottleneckLink;
     bottleneckLink.SetDeviceAttribute  ("DataRate", StringValue ("100Mbps"));
-    bottleneckLink.SetChannelAttribute ("Delay", StringValue ("3ms"));
+    bottleneckLink.SetChannelAttribute ("Delay", StringValue ("5ms"));
 
     /**
     * Creating point to point channel for edge links
